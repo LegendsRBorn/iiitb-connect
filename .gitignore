@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+myenv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# Certificates and private keys
+certs/
+*.pem
+*.key
+*.crt
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
